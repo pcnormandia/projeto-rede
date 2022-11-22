@@ -20,14 +20,14 @@ body{
 }
 /*Estabelecendo uma posição relativa do main para permitir o posicionamento absoluto da section dentro dela.*/
 main{
-    height: 100vh;
+    height: 98vh;
     position: relative;   
 }
 /*Posicionamento absoluto da imagem (frame do iphone) na section 'telefone' em relação ao main obtido através da combinação do uso dos atributos position relative e absolute e da função transform()*/
 section#telefone{
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 48%;
     transform: translate(-50%, -50%);
     width: 311px;
     height: 627px;    
