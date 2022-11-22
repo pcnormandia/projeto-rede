@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*Configuração geral para todos os botões na section "redes sociais" */
+
+/*Configuração global para excluir margem e padding*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Configuração para esconder a barra de rolagem lateral*/
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+/*Configuração da tag img para caber na section 'redes sociais'*/
+img{
+    width: 100vw;
+}
+a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+/*Configuração do link para quando o mousse passar sobre ele*/
+a:hover{
+    background-color: red;
+}        
