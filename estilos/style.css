@@ -26,8 +26,8 @@ main{
 /*Posicionamento absoluto da imagem (frame do iphone) na section 'telefone' em relação ao main obtido através da combinação do uso dos atributos position relative e absolute e da função transform()*/
 section#telefone{
     position: absolute;
-    top: 50%;
-    left: 48%;
+    top: 49%;
+    left: 47%;
     transform: translate(-50%, -50%);
     width: 311px;
     height: 627px;    
