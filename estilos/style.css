@@ -12,7 +12,7 @@ html, body{
     width: 100vw;
     background-color: black;
 }
-/*Configuração do pano de fundo sem repetição e com centralização usando o shorthand background. O atributo size irá permitir a imagem ocupar toda a tela e o attachment irá assegurar que não vai haver rolagem de tela*/
+/*Configuração do pano de fundo no body sem repetição e com centralização usando o shorthand background. O atributo size (cover) permite a imagem ocupar toda a tela e o atributo attachment irá assegurar que não vai haver rolagem de tela*/
 body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
@@ -32,4 +32,12 @@ section#telefone{
     width: 311px;
     height: 627px;    
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+/*Posicionamento relativo da imagem 'home' e adequação do tamanho as configurações do 'section telefone' do arquivo index.html*/
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
