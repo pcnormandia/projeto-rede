@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*Configuração global*/
+
+*{ /*resetar a configuração padrão de margem e espaçamento*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+/*Configuração do pano de fundo sem repetição e com centralização usando o shorthand background. O atributo size irá permitir a imagem ocupar toda a tela e o attachment irá assegurar que não vai haver rolagem de tela*/
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Estabelecendo uma posição relativa do main para permitir o posicionamento absoluto da section dentro dela.*/
+main{
+    height: 100vh;
+    position: relative;   
+}
+/*Posicionamento absoluto da imagem (frame do iphone) na section 'telefone' em relação ao main obtido através da combinação do uso dos atributos position relative e absolute e da função transform()*/
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;    
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
